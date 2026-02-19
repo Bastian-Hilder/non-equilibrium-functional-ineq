@@ -1,3 +1,7 @@
-# Non-equilibrium functional inequalities for Markov chains
+# Non-equilibrium functional inequalities for finite Markov chains
 
 This repository contains the Mathematica file for the calculations in Section 5.3.2 of the article "Non-equilibrium functional inequalities for Markov chains" by Bastian Hilder, Patrick van Meurs and Upanshu Sharma. The preprint of this article can be found at [arxiv.org/abs/??](https://arxiv.org/abs/??).
+
+### Abstract
+
+Functional inequalities such as the Poincaré and log-Sobolev inequalities quantify convergence to equilibrium in continuous-time Markov chains by linking generator properties to variance and entropy decay. However, many applications — including multiscale and non-reversible dynamics — require analysing probability measures that are not at equilibrium, where the classical theory tied to steady states no longer applies. We introduce generalised versions of these inequalities for arbitrary positive measures on a finite state space, retaining key structural properties of their classical counterparts. In particular, we prove continuity of the associated constants with respect to the reference measure and establish explicit positive lower bounds. As an application, we derive quantitative coarse-graining error estimates for non-reversible Markov chains, both with and without explicit scale separation, and propose a quantitative criterion for assessing the quality of coarse-graining maps.
